@@ -73,6 +73,13 @@ To save the APK to a specific directory (for example, your Desktop):
 DEST_DIR=~/Desktop ./build-apk.sh
 ```
 
+### Method 4: Run directly with curl (No manual download needed)
+
+Run this one-liner from the root of any Expo or React Native project:
+```bash
+curl -sSL https://raw.githubusercontent.com/myat-kyaw-thu/build-apk/main/build-apk.sh | bash
+```
+
 ---
 
 ## What the Script Does Automatically
